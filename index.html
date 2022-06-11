@@ -21,7 +21,7 @@
           </li>
           <ul>
             <nav>
-              <li><a href="">Agencja</a></li>
+              <li><a class="active" href="">Agencja</a></li>
               <li><a href="./portfolio.html">Portfolio</a></li>
               <li><a href="">Kontakt</a></li>
             </nav>
@@ -49,7 +49,7 @@
       <section class="background top-index">
         <div class="container">
           <h1 class="topic">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="button" type="button">Zamów usługę</button>
+          <button class="button" type="button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <section class="text-info section">
@@ -118,6 +118,7 @@
                 width="370"
                 height="296"
               />
+              <p class="occupation-index-text">Aplikacje komputerowe</p>
             </li>
             <li>
               <img
@@ -126,6 +127,7 @@
                 width="370"
                 height="296"
               />
+              <p class="occupation-index-text">Aplikacje mobilne</p>
             </li>
             <li>
               <img
@@ -134,6 +136,7 @@
                 height="296"
                 width="370"
               />
+              <p class="occupation-index-text">Rozwiązania graficzne</p>
             </li>
           </ul>
         </div>
@@ -470,8 +473,15 @@
                     </li>
                   </ul>
                     
-                  </div>
-      
+                  </div>  
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <svg class="close-btn">
+          <use href="./css/icon.svg#cancel" data-modal-close></use>
+        </svg>
+         </div>
+    </div>
+    <script src="/js/modal.js"></script>  
   </body>
 </html>
