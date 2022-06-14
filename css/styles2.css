@@ -19,7 +19,8 @@ body {
 }
 
 .container {
-  padding: 0px 100px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 header li,
@@ -35,10 +36,6 @@ header a {
   text-decoration: none;
 }
 
-/*.footer a:hover {
-  background-color: #2196f3;
-}
-*/
 header ul {
   justify-content: space-between;
 }
@@ -269,10 +266,14 @@ header nav a {
   color: #757575;
   padding-top: 10px;
 }
+.footsy {
+  justify-content: flex-start;
+  display: flex;
+  padding: 0px;
+}
 
 footer {
   background-color: #2f303a;
-  display: flex;
   padding: 60px 0px 60px;
 }
 .logodown a {
@@ -537,6 +538,7 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
 .modal {
   position: absolute;
   left: 50%;
@@ -545,7 +547,10 @@ a {
   width: 528px;
   min-height: 581px;
   background-color: #fff;
+  animation-name: opacity;
+  animation-duration: 4s;
 }
+
 .close-btn {
   position: absolute;
   top: 8px;
@@ -554,7 +559,6 @@ a {
   height: 30px;
   background-color: #fff;
   border: 1px solid (0, 0, 0, 0.1);
-  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -562,4 +566,16 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
