@@ -465,6 +465,16 @@
           </li>
         </ul>
         </div>
+        <div class="subscription">
+        <p>Zapisz się do Newslettera</p>
+        <form>
+          <label>
+            <input class="sub-email" type="email" name="email" placeholder="  E-mail" required />
+          </label>
+          <button class="button-sub" type="submit">Zapisz Się <svg class="iconic-sub"><use href="./css/icon.svg#plane"></use></svg> </button>
+         
+        </form>
+      </div>
       </div>
     </footer>
   </body>
@@ -474,10 +484,54 @@
         <svg class="close-btn">
           <use href="./css/icon.svg#cancel" data-modal-close></use>
         </svg>
-         </div>
-    </div>
-   
-       <script src="./js/modal.js"></script>  
-  
+        <form>
+          <div class="form-popup">
+            <h1 class="form-popup-h1">
+              Zostaw swoje dane w formularzu poniżej 
+            </h1>
+          <div class="form-group">
+            <form>
+            <label class="text">Imię
+            <input class="form-group1" type="text" name="text-name">
+           <svg class="form-icon1" ><use href="./css/icon.svg#user"></use> </svg>   
+          </label>
 
+          <label class="text">Telefon
+            <input class="form-group1" type="tel" name="tel-form">
+            <svg class="form-icon1" ><use href="./css/icon.svg#iphone"></use> </svg>   
+         
+          </label>
+          <label class="text">Email
+            <input class="form-group1" type="email" name="email-form">
+             <svg class="form-icon1" ><use href="./css/icon.svg#nvelope"></use> </svg>   
+         
+          </label>
+          <label class="text" >Komentarz
+          <textarea rows="3" placeholder="Wprowadź tekst" ></textarea> 
+          </label>
+          </form>
+          <div class="declarations">
+          
+            <div class="checkbox-container">
+              <input type="checkbox" id="checks">
+              <label for="checks">
+               <span><svg class="checks-svg">
+                  <use href="./css/icon.svg#checked">
+                  </use>
+                </svg>
+                </span>
+              </label>
+            
+
+            <p class="declaration">Oświadczam ,iż akceptuję <a href="">Regulamin</a> i <a href="">Politykę prywatności</a> </p>          
+          </div>
+          <button class="register-button" type="submit">Wyślij</button>  
+       
+        </div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+       <script src="./js/modal.js"></script>  
 </html>
