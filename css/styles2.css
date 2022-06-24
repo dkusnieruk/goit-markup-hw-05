@@ -811,7 +811,7 @@ form {
   width: 20px;
   height: 20px;
   right: 450px;
-   transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-container input[type="checkbox"]:checked + label span {
@@ -821,7 +821,7 @@ form {
   width: 20px;
   height: 20px;
   right: 450px;
-   transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-container input[type="checkbox"] + label svg {
@@ -830,7 +830,7 @@ form {
   width: 20px;
   height: 20px;
   opacity: 0;
-   transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-container input[type="checkbox"]:checked + label svg {
@@ -838,6 +838,7 @@ form {
   position: absolute;
   width: 20px;
   height: 20px;
+  fill: #2196f3;
   opacity: 1;
-   transition: cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
