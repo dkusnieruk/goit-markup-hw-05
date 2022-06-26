@@ -1,0 +1,16 @@
+.text-list{
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172em;
+    text-transform: uppercase;
+    color: var(--colorprimary);
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  &__text {
+    color: var(--colorshade);
+    line-height: 1.716em;
+    max-width: 290px;
+  }
+}
