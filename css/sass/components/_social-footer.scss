@@ -12,10 +12,7 @@
       color: var(--colorsecondary);
     
     }
-  }
-  
-.social{
-  
+    
   &__iconic3 {
     height: 20px;
     width: 20px;
@@ -41,7 +38,7 @@
     &:hover {
       background-color: var(--backgroundbutton);
     }
-    &:hover .social__iconic3 {
+    &:hover .socialy__iconic3 {
       fill: var(--fillwhite);
     }
    

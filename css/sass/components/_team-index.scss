@@ -3,6 +3,13 @@
     background: var(--backgroundframe);
     padding-bottom: 94px;
 
+    &__text-infoset {
+      list-style:none;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+
     &__tittle{
       padding-top: 94px;
       padding-bottom: 50px;

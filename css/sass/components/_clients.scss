@@ -1,4 +1,11 @@
 .clients{
+
+  &__text-infoset {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
   &__title {
     font-weight: 700;
     font-size: 36px;

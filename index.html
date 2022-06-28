@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Studio</title>
     <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,10 +54,10 @@
       </section>
       <section class="text-info section">
         <div class="container">
-          <ul class="text-infoset">
+          <ul class="text-info__text-infoset">
             <li class="text-list">
-              <div class="iconic2-frame">
-                <svg class="iconic2-frame__iconic2">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
                   <use href="./css/icon.svg#icon-antena" ></use>
                 </svg>
               </div>
@@ -68,8 +68,8 @@
               </p>
             </li>
             <li class="text-list">
-              <div class="iconic2-frame">
-                <svg class="iconic2-frame__iconic2">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
                   <use href="./css/icon.svg#icon-clock" ></use>
                 </svg>
               </div>
@@ -80,8 +80,8 @@
               </p>
             </li>
             <li class="text-list">
-              <div class="iconic2-frame">
-                <svg class="iconic2-frame__iconic2">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
                   <use href="./css/icon.svg#icon-diagram" ></use>
                 </svg>
               </div>
@@ -91,8 +91,8 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li><li class="text-list">
-              <div class="iconic2-frame">
-                <svg class="iconic2-frame__iconic2">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
                   <use href="./css/icon.svg#icon-astronaut" ></use>
                 </svg>
               </div>
@@ -109,7 +109,7 @@
       <section class="occupation-index">
         <div class="container">
           <h2 class="occupation-index__title">Czym się zajmujemy</h2>
-          <ul class="text-infoset">
+          <ul class="occupation-index__text-infoset">
             <li class="ourwork">
               <img class="ourwork__image"
                 src="./images/background.jpg"
@@ -144,7 +144,7 @@
       <section class="team-index">
         <div class="container">
           <h2  class="team-index__tittle">Nasz zespół</h2>
-          <ul class="text-infoset">
+          <ul class="team-index__text-infoset">
             <li>
               <figure class="workers">
                 <img class="workers__image"
@@ -360,11 +360,11 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div class="clients container">
+      <section class="clients">
+        <div class="container">
           <h2 class="clients__title">Nasi klienci</h2>
           <p>
-            <ul class="text-infoset">
+            <ul class="clients__text-infoset">
               <li>
                 <a href="">
                 <svg class="clients__iconic4">
@@ -432,31 +432,31 @@
       <div class="socialy">
         <h2 class="socialy__title" >Dołącz do nas</h2>
 
-        <ul class="social__iconic-listing">
-          <li class="social-iconic-space">
-            <a class="social__iconic-3-list-link" href="">
-              <svg class="social__iconic3">
+        <ul class="socialy__iconic-listing">
+          <li>
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-instagram-2"></use>
               </svg>
             </a>
           </li>
-          <li class="social-iconic-space">
-            <a class="social__iconic-3-list-link" href="">
-              <svg class="social__iconic3">
+          <li>
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-twitter-1"></use>
               </svg>
             </a>
           </li>
-          <li class="social-iconic-space">
-            <a class="social__iconic-3-list-link" href="">
-              <svg class="social__iconic3">
+          <li>
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-facebook-1"></use>
               </svg>
             </a>
           </li>
-          <li class="social-iconic-space">
-            <a class="social__iconic-3-list-link" href="">
-              <svg class="social__iconic3">
+          <li>
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-linkedin-1"></use>
               </svg>
             </a>
@@ -523,7 +523,7 @@
 
             <p class="checkbox__declaration">Oświadczam ,iż akceptuję <a class="checkbox__link" href="">Regulamin</a> i <a class="checkbox__link" href="">Politykę prywatności</a> </p>          
           </div>
-          <button class="register-button" type="submit">Wyślij</button>  
+          <button class="checkbox__registerbutton" type="submit">Wyślij</button>  
        
         </div>
 

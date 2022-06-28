@@ -9,7 +9,12 @@
       text-align: center;
       color: var(--colorprimary);
     }
-  
+    &__text-infoset {
+      list-style:none;
+      display: flex;
+      justify-content: space-between;
+    }
+    
     
   }
   
