@@ -16,7 +16,7 @@
         ".vscode/**"
     ],
     "liveSassCompile.settings.generateMap": true,
-    "liveServer.settings.port":1235,
+    "liveServer.settings.port":1236,
     //autoprefix, will auto add perfix like -webkit- -moz-..
     "liveSassCompile.settings.autoprefix": null
 }
