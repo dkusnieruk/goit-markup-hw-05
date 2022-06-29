@@ -52,20 +52,19 @@
       <section class="buttons">
         <div class="container">
           <ul class="buttons__menu">
-            <li><button class="buttons__button2" type="button">Wszystkie</button></li>
-
-            <li><button class="buttons__button2" type="button">Strony</button></li>
-            <li><button class="buttons__button2" type="button">Aplikacje</button></li>
-            <li><button class="buttons__button2" type="button">Dizajn</button></li>
-            <li><button class="buttons__button2" type="button">Marketing</button></li>
+            <li class="buttons__list"><button class="buttons__button" type="button">Wszystkie</button></li>
+            <li class="buttons__list"><button class="buttons__button" type="button">Strony</button></li>
+            <li class="buttons__list"><button class="buttons__button" type="button">Aplikacje</button></li>
+            <li class="buttons__list"><button class="buttons__button" type="button">Dizajn</button></li>
+            <li class="buttons__list"><button class="buttons__button" type="button">Marketing</button></li>
           </ul>
         </div>
       </section>
 
-      <section>
+      <section class="card">
         <div class="container">
-          <ul class="card-set">
-            <li class="card">
+          <ul class="card__card-set">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/1.jpg" alt="project 1" />
@@ -83,7 +82,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/2.jpg" alt="project 2" />
@@ -94,7 +93,7 @@
                     niezabezpieczone serwery konkurencji
                   </p>
                 </div>
-                <figcaption class="card__figure">
+                <figcaption class="card__figcaption">
                   <p class="card__titles">
                     <a class="card__link" href="">Grafika New Orlean vs Golden Star</a>
                   </p>
@@ -103,7 +102,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/3.jpg" alt="project 3" />
@@ -121,7 +120,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/4.jpg" alt="project 4" />
@@ -139,7 +138,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/5.jpg" alt="project 5" />
@@ -157,7 +156,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class= "card__image" src="./images/6.jpg" alt="project 6" />
@@ -177,7 +176,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/7.jpg" alt="project 7" />
@@ -195,7 +194,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img class="card__image" src="./images/8.jpg" alt="project 8" />
@@ -213,7 +212,7 @@
               </figure>
             </li>
 
-            <li class="card">
+            <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
                   <img clas="card__image" src="./images/9.jpg" alt="project 9" />
@@ -236,17 +235,17 @@
     </main>
     <footer class="footer">
       <div class="container footsy">
-      <div>
+      <div class="footsy__chapter">
         <div class="logo--down">
           <a  class="logo" href="">Web<span class="logo__span--footer"> Studio </span> </a>
         </div>
         <adress class="footsy__adressdown">
           m. Warszawa, Aleje Jerozolimskie 21
         </adress>
-        <div >
+        <div class="footsy__chapter" >
           <a class="footsy__mailto2" href="mailto:info@devstudio.com"> info@devstudio.com </a>
         </div>
-        <div >
+        <div class="footsy__chapter" >
           <a class="footsy__tele2" href="tel:+48111111111"> +48 111 111 111 </a>
         </div>
       </div>
@@ -254,28 +253,28 @@
         <h2 class="socialy__title" >Dołącz do nas</h2>
 
         <ul class="socialy__iconic-listing">
-          <li>
+          <li class="socialy__list">
             <a class="socialy__iconic-3-list-link" href="">
               <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-instagram-2"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="socialy__list">
             <a class="socialy__iconic-3-list-link" href="">
               <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-twitter-1"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="socialy__list">
             <a class="socialy__iconic-3-list-link" href="">
               <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-facebook-1"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="socialy__list">
             <a class="socialy__iconic-3-list-link" href="">
               <svg class="socialy__iconic3">
                 <use href="./css/icon.svg#icon-linkedin-1"></use>
@@ -287,7 +286,7 @@
         <div class="subscription">
         <p class="subscription__title" >Zapisz się do Newslettera</p>
         <form class="subscription__form">
-          <label>
+          <label class="subscription__chapter">
             <input class="subscription__sub-email" type="email" name="email" placeholder="  E-mail" required />
           </label>
           <button class="subscription__button-sub" type="submit">Zapisz Się <svg class="subscription__iconic-sub"><use href="./css/icon.svg#plane"></use></svg> </button>

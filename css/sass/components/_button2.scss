@@ -1,4 +1,10 @@
 .buttons {
+
+  &__list{
+
+    
+  }
+
   &__menu {
     list-style:none;
     justify-content: center;
@@ -7,7 +13,7 @@
     
   }
 
-    &__button2{
+    &__button{
     border-radius: 4px;
     background: var(--backgroundframe);
     margin-right: 8px;

@@ -79,7 +79,7 @@ body {
   padding: 94px 0px 50px;
   display: flex;
 }
-.buttons__button2 {
+.buttons__button {
   border-radius: 4px;
   background: var(--backgroundframe);
   margin-right: 8px;
@@ -93,7 +93,7 @@ body {
   padding: 6px 22px;
   transition: background-color, color, cursor, border-radius, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.buttons__button2:hover {
+.buttons__button:hover {
   background-color: var(--backgroundbutton);
   cursor: pointer;
   color: var(--colorsecondary);
@@ -101,20 +101,22 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.card-set {
+.card__card-set {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
 }
-
-.card {
+.card__list {
   cursor: pointer;
   margin-bottom: 20px;
   transition: translateY;
 }
-.card:hover {
+.card__list:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.card__list:hover .card__overlay {
+  transform: translateY(0);
 }
 .card__titles {
   font-weight: 700;
@@ -162,10 +164,6 @@ body {
 .card__transform {
   position: relative;
   overflow: hidden;
-}
-.card:hover .card__overlay {
-  transform: translateY(0);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .declarations {
