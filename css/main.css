@@ -206,6 +206,7 @@ body {
 .checkbox__checks-svg {
   width: 20px;
   height: 20px;
+  fill: var(--fillprimary);
 }
 .checkbox__span {
   position: relative;
